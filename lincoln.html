@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        *{
+            
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1{
+            margin: 1%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .conatiner{
+            background-color: rgba(129, 82, 173, 0.384);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 2%;
+            margin: 4%;
+        }
+        p{
+            margin: 2%;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            
+        }
+        button{
+            background-color: green;
+            color: white;
+            padding: 0.95%;
+            width: auto;
+            border: 2px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        @media(max-width:1024px){
+            .conatiner{
+                display: flex;
+                flex-direction: column;
+
+            }
+            p{
+                font-size: 20px;
+            }
+            .im{
+                width: auto;
+            }
+            button{
+                width: 15%;
+            }
+        }
+        @media(max-width:400px){
+            .im{
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Team of Rivals: The Political Genius of Abraham Lincoln</h1>
+    </header>
+    <section>
+        <div class="conatiner">
+            <img src="lincoln.jpg" alt="lincoln" width = "700" height="350" class="im">
+            <p style="font-size: 20px;">
+                One notable biography of Abraham Lincoln is "Team of Rivals: The Political Genius of Abraham Lincoln" by Doris Kearns Goodwin. Published in 2005, the book explores Lincoln's leadership style and political acumen during a critical period in American history.
+
+Doris Kearns Goodwin delves into Lincoln's relationships with his cabinet members, many of whom were initially his political rivals. The book highlights Lincoln's ability to bring together diverse personalities and perspectives to form a strong and effective team during the Civil War. It provides a detailed and engaging portrait of Lincoln's character, political strategies, and the challenges he faced during one of the most tumultuous periods in American history.
+
+If you're interested in a comprehensive and well-researched biography of Abraham Lincoln, "Team of Rivals" is a highly recommended read.
+            </p>
+        </div>
+                
+                
+                
+                
+                
+    </section>
+    <footer>
+        <a href="index.html" class="btn"><button>Back</button></a>
+    </footer>
+</body>
+</html>

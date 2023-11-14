@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        *{
+            
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1{
+            margin: 1%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .conatiner{
+            background-color: rgba(129, 82, 173, 0.384);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 2%;
+            margin: 4%;
+        }
+        p{
+            margin: 2%;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            
+        }
+        button{
+            background-color: green;
+            color: white;
+            padding: 0.95%;
+            width: auto;
+            border: 2px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        @media(max-width:1024px){
+            .conatiner{
+                display: flex;
+                flex-direction: column;
+
+            }
+            p{
+                font-size: 20px;
+            }
+            .im{
+                width: auto;
+            }
+            button{
+                width: 15%;
+            }
+        }
+        @media(max-width:400px){
+            .im{
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Steve Jobs</h1>
+    </header>
+    <section>
+        <div class="conatiner">
+            <img src="steve jobs.jpg" alt="steve jobs" width = "700" height="350" class="im">
+            <p style="font-size: 20px;">The biography of Steve Jobs, co-founder of Apple Inc., is titled "Steve Jobs"
+                 and was written by Walter Isaacson. The book was published in 2011, shortly after Jobs' death in 2011. 
+                 Walter Isaacson had unprecedented access to Jobs during the writing process, conducting numerous interviews with him and people close to him.
+
+                "Steve Jobs" explores Jobs' life, from his early days as a tech enthusiast to his co-founding of Apple with Steve Wozniak, his departure from and return to the company, and his role in revolutionizing industries with products like the Macintosh, iPod, iPhone, and iPad. The biography provides insights into Jobs' personality, management style, and the impact of his innovative vision on the tech industry.
+                 It's a compelling and comprehensive look at one of the most influential figures in modern technology.
+                
+                
+            </p>
+        </div>
+                
+                
+                
+                
+                
+    </section>
+    <footer>
+        <a href="index.html" class="btn"><button>Back</button></a>
+    </footer>
+</body>
+</html>
